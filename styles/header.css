@@ -66,6 +66,15 @@
     text-transform: uppercase;
 }
 
+.lista-menu__item:hover{
+    background: var(--azul-degrade);
+}
+
+.lista-menu__item:hover > .lista-menu__link {
+    -webkit-text-fill-color: var(--cor-branco);
+    text-decoration: none;
+
+}
 .container__titulo,
 .opcoes,
 .container__texto {
@@ -119,7 +128,16 @@
         padding: 2em 1em;
     }
 
-    .lista-menu__item:hover {
+    .opcoes__item:hover {
+        background: var(--azul-degrade);
+        -webkit-text-fill-color: var(--cor-branco);
+    }
+
+    .opcoes__item:hover > .opcoes__link {
+        -webkit-text-fill-color: var(--cor-branco);
+    }
+
+    .lista-menu__item:hover{
         background: var(--azul-degrade);
     }
 

@@ -42,6 +42,10 @@ hr {
         margin-left: 0.5em;
     }
     
+    .lista-rodape__link:hover{
+        text-decoration: underline;
+    }
+    
 }
 
 @media screen and (min-width: 1728px) {
